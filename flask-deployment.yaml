@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1	 # Specifies API version of this deployment
+kind: Deployment	# This is a deployment object
+metadata:
+  name: nextwork-flask-backend
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nextwork-flask-backend
+  template:
+    metadata:
+      labels:
+        app: nextwork-flask-backend
+    spec:
+      containers:
+        - name: nextwork-flask-backend
+          image: 202533525394.dkr.ecr.us-east-1.amazonaws.com/nextwork-flask-backend:latest
+          ports:
+            - containerPort: 8080
