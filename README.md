@@ -174,7 +174,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Bheemender Gurram - [gurram.bheemender@gmail.com](mailto:gurram.bheemender@gmail.com)
 
-Project Link: 
+Project Link: https://medium.com/@bheemender.gurram08/deploying-a-containerized-backend-app-on-aws-eks-with-kubernetes-6c6d55e8d2b0
 
 ---
 
